@@ -6,8 +6,8 @@ First time making and styling a contact form. Wanted to make it look simple. The
 
 ## Installation
 
-git clone <ssh.git>
-git clone <https:git>
+```git clone <ssh.git>```
+```git clone <https:git>```
 
 ## Usage
 
