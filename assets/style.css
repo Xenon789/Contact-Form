@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f4a82;
+    font-size: 14px;
+}
+
+.contact-form{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background-color: #0f4a82;
+    display: flex;
+    border: 5px solid orange;
+    border-radius: 10px;
+    box-shadow: .75em .75em 1em rgba(0, 0, 0, 0.5);
+}
+
+.contact{
+    flex-basis: 100%;
+    padding: 40px;
+    color: white;
+}
+
+.contact-title{
+    margin-bottom: 10px;
+    border-bottom: 5px solid orange;
+}
+
+.contact-form p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20x;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid orange;
+    outline: none;
+    padding-bottom: 5px;
+    background-color: #0f4a82;
+}
+
+button{
+    background: orange;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+textarea{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: orange;
+    background-color: #0f4a82;
+}
+
+label{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: block;
+    color: white;
+    font-size: large;
+}
